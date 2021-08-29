@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>	
+	</title>
+	<style type="text/css">
+		body{
+			background-image: url("https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-02.jpg");
+			background-repeat: no-repeat;
+		}
+
+		
+			div{
+             background-color: #f2f2f2;
+             opacity: 0.8;
+             border-style: solid;
+             border-radius: 20px;
+			border-width: medium;
+			border-color: aliceblue;
+			text-align: justify;
+			max-width: 600px;
+			margin-right: 400px;
+			margin-left: 400px;
+			margin-top: 100px;
+			padding: 15px;
+			}
+		input[type=submit]:hover {
+             background-color: rgb(50, 0, 255);
+           }
+           button:hover {
+             background-color: rgb(50, 0, 255);
+           }		
+			input[type=submit],button {
+  
+           background-color: rgb(30, 0, 255);
+           color: white;
+           padding: 15px ;
+  
+           border: none;
+           border-radius: 20px;
+           cursor: pointer;
+		 }
+		 input[type=text],input[type=email],input[list=profession] {
+             width: 40%;
+             padding: 12px ;
+            
+            border: 1px solid #ccc;
+           border-radius: 4px;
+           box-sizing: border-box;
+}
+button{
+   text-align: center;  
+   float: right; 
+}
+	</style>
+}
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+	<h1 style="text-align: center;">Sign Up</h1>
+	<div>
+  <form id="myForm" action="action.php" method="POST" >
+  	<label>Name:</label>
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" id="firstname" placeholder="Your name" autofocus="autofocus" required="required" ><br><br>
+    <label>E-mail:</label>
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="email" id="email" placeholder="your email" required="required"> <br><br>
+    <label>City</label>
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" name="city" placeholder="enter your city" required="required"><br><br>
+    <label>profession:</label>
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    <input list="profession" name="profession" required="required">
+    <datalist id="profession">
+      <option value="student">
+      <option value="working professional">
+      </datalist><br><br><input type="submit" name="submit" value="freeze"><br><a href="message.html"><button><a href="message.html" style="text-decoration: none; color: white; font-size: 20px;">Register now!</a></button>
+  </form></div><br><br>
+     
+</body>
+</html>

@@ -1,0 +1,104 @@
+body{
+	position: relative;
+	background-color: ghostwhite;
+	background-image: url("https://pbs.twimg.com/profile_images/1234332791271194624/Uf-zowvu_400x400.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+    background-attachment: fixed;
+}
+#Caro{
+ border-style: hidden;
+ border-style: 5px;    
+ border-color: black;
+ background-color: black;
+ border-radius: 20px;
+ position: fixed;
+ min-width: 1340px;
+text-align: center;
+line-height: 1;
+margin-bottom: 500px;
+}
+.ib{
+ color: darkred;
+ border-style: hidden; 
+ border-color: ghostwhite;
+ margin-left: 250px;
+ font-size: 30px;
+
+}
+.font-effect-fire{
+
+ font-family: "Sofia", sans-serif;
+  font-size: 50px;
+ text-align: center;
+ 
+}
+#a{
+	font-size: 50px;
+	color: red;
+    font-family: 'Rampart One', cursive;
+    padding-bottom: 7px;
+    
+    
+}
+#what{
+	font-size: 20px;
+}
+
+#fixed{
+	word-spacing: 50px;
+	list-style-type: none;
+    background-color: rgb(34, 0, 255);
+	text-align: right;
+	margin-top: 0px;
+	padding: 0;
+	height: 50px;
+	min-width: 1340px;
+	font-family: 'Fredoka One', cursive;
+	font-weight: 900;
+	border-style: solid;
+	border-color: #000000;
+	position: fixed;
+	border-width: 1px;
+	border-radius: 10px;
+	line-height: 55px;
+	text-decoration: none;
+	font-size: large;
+}
+
+
+.list1{
+	display: inline;
+	padding: 30px;
+	color: ghostwhite;
+
+
+    
+
+}
+.li{
+
+}
+.l1:link{
+	text-decoration: none;
+
+}
+.li:visited{
+	color: ghostwhite;
+}
+.l1:hover{
+	color: ghostwhite;
+	background-color: black;
+    border-bottom: solid;
+    border-bottom-width: 3px;
+    border-radius: 5px;
+	
+
+}
+.li:active{}
+#footer{
+	background-color: grey;
+	color: black;
+	font-family: ;
+	max-height: 400px;
+}

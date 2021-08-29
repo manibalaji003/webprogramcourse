@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <style type="text/css">
+                body{
+            background-image: url("https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-02.jpg");
+            background-repeat: no-repeat;
+        }
+
+        
+            div{
+             background-color: #f2f2f2;
+             opacity: 0.8;
+             border-style: solid;
+             border-radius: 20px;
+            border-width: medium;
+            border-color: aliceblue;
+            text-align: justify;
+            max-width: 600px;
+            margin-right: 400px;
+            margin-left: 400px;
+            margin-top: 100px;
+            padding: 15px;
+            }
+        input[type=submit]:hover {
+             background-color: rgb(50, 0, 255);
+           } 
+            button:hover {
+             background-color: rgb(50, 0, 255);
+           }               
+            input[type=submit],button{
+           background-color: rgb(30, 0, 255);
+           color: white;
+           padding: 15px ;
+           border: none;
+           border-radius: 20px;
+           cursor: pointer;
+         }
+         input[type=email],input[type=password] {
+             width: 40%;
+             padding: 12px ;
+            
+            border: 1px solid #ccc;
+           border-radius: 4px;
+           box-sizing: border-box;
+}
+    </style>
+  <script>
+function validateForm() {
+  let x = document.forms["myForm"]["fname"].value;
+  if (x == "") {
+    alert("email must be filled out");
+    return false;
+  }
+}
+</script>
+</head>
+<body>
+ <h1 style="text-align: center;">Log in</h1>
+  <div>
+   <form action="message.html"  method="POST" id="myForm" onsubmit="return validateForm()">
+       <label for="e-mail">E-mail:</label>
+       &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="email"  id="fname"><br><br>
+       
+       <br> 
+       <input type="submit" name="submit" value="Log in" style="float: right;">
+   </form> 
+ </div><br><br>
+ <button style="float: right; font-size: 25px; text-decoration: none;"><a href="Nec competition web developmnt.html" style="text-decoration: none; color: white;">Back To Home</a></button>
+</body>
+</html>
